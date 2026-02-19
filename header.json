@@ -1,0 +1,209 @@
+{
+    "version": "0.4",
+    "title": "Header Portfolio Freelancer",
+    "type": "header",
+    "metadata": {
+      "template_type": "section-header",
+      "include_in_zip": "1",
+      "elementor_pro_required": "1",
+      "elementor_library_type": "header",
+      "elementor_pro_conditions": [
+        "include/general"
+      ],
+      "wp_page_template": "default",
+      "additional_template_information": [
+        {
+          "name": "description",
+          "value": "Cabecera global para portfolio freelance oscuro."
+        }
+      ]
+    },
+    "content": [
+      {
+        "id": "1a2b3c4d",
+        "elType": "section",
+        "settings": {
+          "layout": "full_width",
+          "content_width": {
+            "unit": "px",
+            "size": 1180,
+            "sizes": []
+          },
+          "height": "min-height",
+          "custom_height": {
+            "unit": "px",
+            "size": 82,
+            "sizes": []
+          },
+          "structure": "30",
+          "background_background": "classic",
+          "background_color": "#070A0F",
+          "border_border": "solid",
+          "border_width": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "1",
+            "left": "0",
+            "isLinked": false
+          },
+          "padding": {
+            "unit": "px",
+            "top": "16",
+            "right": "32",
+            "bottom": "16",
+            "left": "32",
+            "isLinked": false
+          },
+          "padding_mobile": {
+            "unit": "px",
+            "top": "12",
+            "right": "18",
+            "bottom": "12",
+            "left": "18",
+            "isLinked": false
+          },
+          "__globals__": {
+            "background_color": "globals/colors?id=d0e1f2a3",
+            "border_color": "globals/colors?id=a7b8c9d0"
+          }
+        },
+        "elements": [
+          {
+            "id": "2b3c4d5e",
+            "elType": "column",
+            "settings": {
+              "_column_size": 25,
+              "_inline_size": 25,
+              "content_position": "center"
+            },
+            "elements": [
+              {
+                "id": "3c4d5e6f",
+                "elType": "widget",
+                "widgetType": "image",
+                "settings": {
+                  "image": {
+                    "url": "https://via.placeholder.com/220x70",
+                    "id": "",
+                    "size": "",
+                    "alt": "Logotipo de Marcos Vidal, profesional freelance",
+                    "source": "library"
+                  },
+                  "image_size": "medium",
+                  "width": {
+                    "unit": "px",
+                    "size": 145,
+                    "sizes": []
+                  },
+                  "_animation": "fadeInUp"
+                },
+                "elements": []
+              }
+            ],
+            "isInner": false
+          },
+          {
+            "id": "4d5e6f7a",
+            "elType": "column",
+            "settings": {
+              "_column_size": 50,
+              "_inline_size": 50,
+              "content_position": "center"
+            },
+            "elements": [
+              {
+                "id": "5e6f7a8b",
+                "elType": "widget",
+                "widgetType": "nav-menu",
+                "settings": {
+                  "layout": "horizontal",
+                  "pointer": "underline",
+                  "menu_items": [
+                    {
+                      "text": "Inicio",
+                      "url": "#inicio"
+                    },
+                    {
+                      "text": "Sobre mi",
+                      "url": "#sobre-mi"
+                    },
+                    {
+                      "text": "Contacto",
+                      "url": "#contacto"
+                    }
+                  ],
+                  "align_items": "center",
+                  "color_menu_item": "#F5F7FA",
+                  "color_menu_item_hover": "#20E3B2",
+                  "color_menu_item_active": "#20E3B2",
+                  "__globals__": {
+                    "color_menu_item": "globals/colors?id=c3d4e5f6",
+                    "color_menu_item_hover": "globals/colors?id=e1f2a3b4",
+                    "color_menu_item_active": "globals/colors?id=e1f2a3b4",
+                    "typography_typography": "globals/typography?id=t5e6f7a8"
+                  }
+                },
+                "elements": []
+              }
+            ],
+            "isInner": false
+          },
+          {
+            "id": "6f7a8b9c",
+            "elType": "column",
+            "settings": {
+              "_column_size": 25,
+              "_inline_size": 25,
+              "content_position": "center",
+              "horizontal_align": "right"
+            },
+            "elements": [
+              {
+                "id": "7a8b9c0d",
+                "elType": "widget",
+                "widgetType": "button",
+                "settings": {
+                  "text": "Hablemos",
+                  "link": {
+                    "url": "#contacto",
+                    "is_external": "",
+                    "nofollow": ""
+                  },
+                  "align": "right",
+                  "button_text_color": "#FFFFFF",
+                  "background_color": "#7C5CFF",
+                  "hover_color": "#070A0F",
+                  "button_background_hover_color": "#20E3B2",
+                  "border_radius": {
+                    "unit": "px",
+                    "top": "8",
+                    "right": "8",
+                    "bottom": "8",
+                    "left": "8",
+                    "isLinked": true
+                  },
+                  "text_padding": {
+                    "unit": "px",
+                    "top": "14",
+                    "right": "22",
+                    "bottom": "14",
+                    "left": "22",
+                    "isLinked": false
+                  },
+                  "__globals__": {
+                    "background_color": "globals/colors?id=e5f6a7b8",
+                    "button_background_hover_color": "globals/colors?id=f6a7b8c9",
+                    "typography_typography": "globals/typography?id=t6f7a8b9"
+                  }
+                },
+                "elements": []
+              }
+            ],
+            "isInner": false
+          }
+        ],
+        "isInner": false
+      }
+    ]
+  }

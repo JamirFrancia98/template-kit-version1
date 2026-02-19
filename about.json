@@ -1,0 +1,416 @@
+{
+    "version": "0.4",
+    "title": "Sobre mi",
+    "type": "page",
+    "metadata": {
+      "template_type": "single-page",
+      "include_in_zip": "1",
+      "elementor_pro_required": "1",
+      "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+      {
+        "id": "3f5a6b7c",
+        "elType": "section",
+        "settings": {
+          "layout": "boxed",
+          "content_width": {
+            "unit": "px",
+            "size": 980,
+            "sizes": []
+          },
+          "background_background": "classic",
+          "background_color": "#10131A",
+          "padding": {
+            "unit": "px",
+            "top": "110",
+            "right": "32",
+            "bottom": "80",
+            "left": "32",
+            "isLinked": false
+          },
+          "__globals__": {
+            "background_color": "globals/colors?id=c9d0e1f2"
+          }
+        },
+        "elements": [
+          {
+            "id": "4a6b7c8d",
+            "elType": "column",
+            "settings": {
+              "_column_size": 100
+            },
+            "elements": [
+              {
+                "id": "5b7c8d9e",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Sobre mi",
+                  "header_size": "h1",
+                  "align": "center",
+                  "title_color": "#F5F7FA",
+                  "_animation": "fadeInUp",
+                  "__globals__": {
+                    "title_color": "globals/colors?id=c3d4e5f6",
+                    "typography_typography": "globals/typography?id=t1a2b3c4"
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "6c8d9e0f",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Soy un profesional independiente que combina diseno, tecnologia y estrategia para crear experiencias digitales con intencion.",
+                  "header_size": "p",
+                  "align": "center",
+                  "title_color": "#A8B3C7",
+                  "__globals__": {
+                    "title_color": "globals/colors?id=a3b4c5d6",
+                    "typography_typography": "globals/typography?id=t3c4d5e6"
+                  }
+                },
+                "elements": []
+              }
+            ],
+            "isInner": false
+          }
+        ],
+        "isInner": false
+      },
+      {
+        "id": "7d9e0f1a",
+        "elType": "section",
+        "settings": {
+          "layout": "boxed",
+          "content_width": {
+            "unit": "px",
+            "size": 1180,
+            "sizes": []
+          },
+          "structure": "20",
+          "background_background": "classic",
+          "background_color": "#070A0F",
+          "padding": {
+            "unit": "px",
+            "top": "96",
+            "right": "32",
+            "bottom": "96",
+            "left": "32",
+            "isLinked": false
+          },
+          "__globals__": {
+            "background_color": "globals/colors?id=d0e1f2a3"
+          }
+        },
+        "elements": [
+          {
+            "id": "8e0f1a2b",
+            "elType": "column",
+            "settings": {
+              "_column_size": 45,
+              "_inline_size": 45
+            },
+            "elements": [
+              {
+                "id": "9f1a2b3c",
+                "elType": "widget",
+                "widgetType": "image",
+                "settings": {
+                  "image": {
+                    "url": "https://via.placeholder.com/800x900",
+                    "id": "",
+                    "size": "",
+                    "alt": "Foto profesional de Marcos Vidal",
+                    "source": "library"
+                  },
+                  "image_size": "large",
+                  "border_radius": {
+                    "unit": "px",
+                    "top": "18",
+                    "right": "18",
+                    "bottom": "18",
+                    "left": "18",
+                    "isLinked": true
+                  }
+                },
+                "elements": []
+              }
+            ],
+            "isInner": false
+          },
+          {
+            "id": "0a2b3c4d",
+            "elType": "column",
+            "settings": {
+              "_column_size": 55,
+              "_inline_size": 55,
+              "content_position": "center"
+            },
+            "elements": [
+              {
+                "id": "1b3c4d5e",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Diseno con criterio, desarrollo con precision.",
+                  "header_size": "h2",
+                  "title_color": "#F5F7FA",
+                  "__globals__": {
+                    "title_color": "globals/colors?id=c3d4e5f6",
+                    "typography_typography": "globals/typography?id=t2b3c4d5"
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "2c4d5e6f",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p>Trabajo con emprendedores, profesionales y equipos pequenos que necesitan una presencia digital solida sin perder agilidad. Mi enfoque une estetica, estructura y objetivos de negocio para que cada pagina tenga una funcion clara.</p><p>Me gusta empezar entendiendo el contexto: que vendes, a quien hablas y que accion necesitas provocar. A partir de ahi diseno sistemas visuales y sitios web que transmiten confianza, cargan rapido y son faciles de mantener.</p><p>Cuando colaboramos, no recibes solo pantallas bonitas: recibes acompanamiento, criterio tecnico y una forma ordenada de convertir ideas en piezas digitales listas para salir al mundo.</p>",
+                  "text_color": "#A8B3C7",
+                  "__globals__": {
+                    "text_color": "globals/colors?id=a3b4c5d6",
+                    "typography_typography": "globals/typography?id=t3c4d5e6"
+                  }
+                },
+                "elements": []
+              }
+            ],
+            "isInner": false
+          }
+        ],
+        "isInner": false
+      },
+      {
+        "id": "3d5e6f7a",
+        "elType": "section",
+        "settings": {
+          "layout": "boxed",
+          "content_width": {
+            "unit": "px",
+            "size": 1180,
+            "sizes": []
+          },
+          "structure": "30",
+          "background_background": "classic",
+          "background_color": "#10131A",
+          "padding": {
+            "unit": "px",
+            "top": "90",
+            "right": "32",
+            "bottom": "90",
+            "left": "32",
+            "isLinked": false
+          },
+          "__globals__": {
+            "background_color": "globals/colors?id=c9d0e1f2"
+          }
+        },
+        "elements": [
+          {
+            "id": "4e6f7a8c",
+            "elType": "column",
+            "settings": {
+              "_column_size": 33
+            },
+            "elements": [
+              {
+                "id": "5f7a8c9d",
+                "elType": "widget",
+                "widgetType": "icon-list",
+                "settings": {
+                  "icon_list": [
+                    {
+                      "text": "Figma",
+                      "selected_icon": {
+                        "value": "fas fa-check",
+                        "library": "fa-solid"
+                      }
+                    },
+                    {
+                      "text": "WordPress",
+                      "selected_icon": {
+                        "value": "fas fa-check",
+                        "library": "fa-solid"
+                      }
+                    }
+                  ],
+                  "text_color": "#F5F7FA",
+                  "icon_color": "#20E3B2",
+                  "__globals__": {
+                    "text_color": "globals/colors?id=c3d4e5f6",
+                    "icon_color": "globals/colors?id=e1f2a3b4",
+                    "typography_typography": "globals/typography?id=t3c4d5e6"
+                  }
+                },
+                "elements": []
+              }
+            ],
+            "isInner": false
+          },
+          {
+            "id": "6a8c9d0e",
+            "elType": "column",
+            "settings": {
+              "_column_size": 33
+            },
+            "elements": [
+              {
+                "id": "7b9d0e1f",
+                "elType": "widget",
+                "widgetType": "icon-list",
+                "settings": {
+                  "icon_list": [
+                    {
+                      "text": "Elementor Pro",
+                      "selected_icon": {
+                        "value": "fas fa-check",
+                        "library": "fa-solid"
+                      }
+                    },
+                    {
+                      "text": "React",
+                      "selected_icon": {
+                        "value": "fas fa-check",
+                        "library": "fa-solid"
+                      }
+                    }
+                  ],
+                  "text_color": "#F5F7FA",
+                  "icon_color": "#7C5CFF",
+                  "__globals__": {
+                    "text_color": "globals/colors?id=c3d4e5f6",
+                    "icon_color": "globals/colors?id=a1b2c3d4",
+                    "typography_typography": "globals/typography?id=t3c4d5e6"
+                  }
+                },
+                "elements": []
+              }
+            ],
+            "isInner": false
+          },
+          {
+            "id": "8c0e1f2a",
+            "elType": "column",
+            "settings": {
+              "_column_size": 33
+            },
+            "elements": [
+              {
+                "id": "9d1f2a3b",
+                "elType": "widget",
+                "widgetType": "icon-list",
+                "settings": {
+                  "icon_list": [
+                    {
+                      "text": "Photoshop",
+                      "selected_icon": {
+                        "value": "fas fa-check",
+                        "library": "fa-solid"
+                      }
+                    },
+                    {
+                      "text": "SEO tecnico",
+                      "selected_icon": {
+                        "value": "fas fa-check",
+                        "library": "fa-solid"
+                      }
+                    }
+                  ],
+                  "text_color": "#F5F7FA",
+                  "icon_color": "#FFB86B",
+                  "__globals__": {
+                    "text_color": "globals/colors?id=c3d4e5f6",
+                    "icon_color": "globals/colors?id=f2a3b4c5",
+                    "typography_typography": "globals/typography?id=t3c4d5e6"
+                  }
+                },
+                "elements": []
+              }
+            ],
+            "isInner": false
+          }
+        ],
+        "isInner": false
+      },
+      {
+        "id": "0e2a3b4c",
+        "elType": "section",
+        "settings": {
+          "layout": "boxed",
+          "content_width": {
+            "unit": "px",
+            "size": 920,
+            "sizes": []
+          },
+          "background_background": "classic",
+          "background_color": "#070A0F",
+          "padding": {
+            "unit": "px",
+            "top": "90",
+            "right": "32",
+            "bottom": "110",
+            "left": "32",
+            "isLinked": false
+          },
+          "__globals__": {
+            "background_color": "globals/colors?id=d0e1f2a3"
+          }
+        },
+        "elements": [
+          {
+            "id": "1f3b4c5d",
+            "elType": "column",
+            "settings": {
+              "_column_size": 100
+            },
+            "elements": [
+              {
+                "id": "2a4c5d6e",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Buscas un colaborador flexible para tu proximo proyecto?",
+                  "header_size": "h2",
+                  "align": "center",
+                  "title_color": "#F5F7FA",
+                  "__globals__": {
+                    "title_color": "globals/colors?id=c3d4e5f6",
+                    "typography_typography": "globals/typography?id=t2b3c4d5"
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "3b5d6e7f",
+                "elType": "widget",
+                "widgetType": "button",
+                "settings": {
+                  "text": "Escribeme",
+                  "align": "center",
+                  "link": {
+                    "url": "#contacto"
+                  },
+                  "background_color": "#7C5CFF",
+                  "button_background_hover_color": "#20E3B2",
+                  "button_text_color": "#FFFFFF",
+                  "__globals__": {
+                    "background_color": "globals/colors?id=e5f6a7b8",
+                    "button_background_hover_color": "globals/colors?id=f6a7b8c9",
+                    "typography_typography": "globals/typography?id=t6f7a8b9"
+                  }
+                },
+                "elements": []
+              }
+            ],
+            "isInner": false
+          }
+        ],
+        "isInner": false
+      }
+    ]
+  }

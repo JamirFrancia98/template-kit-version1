@@ -1,0 +1,256 @@
+{
+    "version": "0.4",
+    "title": "Global Kit Styles",
+    "type": "section",
+    "metadata": {
+      "template_type": "global-styles",
+      "include_in_zip": "1",
+      "elementor_pro_required": "1",
+      "additional_template_information": [
+        {
+          "name": "kit_name",
+          "value": "Portfolio Freelancer Nocturno"
+        },
+        {
+          "name": "description",
+          "value": "Estilos globales oscuros y modernos para portfolio profesional freelance."
+        }
+      ]
+    },
+    "content": [],
+    "page_settings": {
+      "system_colors": [
+        {
+          "_id": "a1b2c3d4",
+          "title": "Primary",
+          "color": "#7C5CFF"
+        },
+        {
+          "_id": "b2c3d4e5",
+          "title": "Secondary",
+          "color": "#20E3B2"
+        },
+        {
+          "_id": "c3d4e5f6",
+          "title": "Text",
+          "color": "#F5F7FA"
+        },
+        {
+          "_id": "d4e5f6a7",
+          "title": "Accent",
+          "color": "#FFB86B"
+        }
+      ],
+      "custom_colors": [
+        {
+          "_id": "e5f6a7b8",
+          "title": "Boton",
+          "color": "#7C5CFF"
+        },
+        {
+          "_id": "f6a7b8c9",
+          "title": "Hover Boton",
+          "color": "#20E3B2"
+        },
+        {
+          "_id": "a7b8c9d0",
+          "title": "Lineas",
+          "color": "#2A3142"
+        },
+        {
+          "_id": "b8c9d0e1",
+          "title": "Fondo Claro",
+          "color": "#171C26"
+        },
+        {
+          "_id": "c9d0e1f2",
+          "title": "Fondo Oscuro",
+          "color": "#10131A"
+        },
+        {
+          "_id": "d0e1f2a3",
+          "title": "Fondo Extra Oscuro",
+          "color": "#070A0F"
+        },
+        {
+          "_id": "e1f2a3b4",
+          "title": "Acento Cian",
+          "color": "#20E3B2"
+        },
+        {
+          "_id": "f2a3b4c5",
+          "title": "Acento Calido",
+          "color": "#FFB86B"
+        },
+        {
+          "_id": "a3b4c5d6",
+          "title": "Texto Secundario",
+          "color": "#A8B3C7"
+        }
+      ],
+      "system_typography": [
+        {
+          "_id": "t1a2b3c4",
+          "title": "Primary",
+          "typography_typography": "custom",
+          "typography_font_family": "Space Grotesk",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+            "unit": "px",
+            "size": 64,
+            "sizes": []
+          },
+          "typography_font_size_tablet": {
+            "unit": "px",
+            "size": 48,
+            "sizes": []
+          },
+          "typography_font_size_mobile": {
+            "unit": "px",
+            "size": 36,
+            "sizes": []
+          },
+          "typography_line_height": {
+            "unit": "em",
+            "size": 1.05,
+            "sizes": []
+          },
+          "typography_letter_spacing": {
+            "unit": "px",
+            "size": 0,
+            "sizes": []
+          }
+        },
+        {
+          "_id": "t2b3c4d5",
+          "title": "Secondary",
+          "typography_typography": "custom",
+          "typography_font_family": "Space Grotesk",
+          "typography_font_weight": "600",
+          "typography_font_size": {
+            "unit": "px",
+            "size": 38,
+            "sizes": []
+          },
+          "typography_font_size_tablet": {
+            "unit": "px",
+            "size": 32,
+            "sizes": []
+          },
+          "typography_font_size_mobile": {
+            "unit": "px",
+            "size": 28,
+            "sizes": []
+          },
+          "typography_line_height": {
+            "unit": "em",
+            "size": 1.15,
+            "sizes": []
+          }
+        },
+        {
+          "_id": "t3c4d5e6",
+          "title": "Text",
+          "typography_typography": "custom",
+          "typography_font_family": "Inter",
+          "typography_font_weight": "400",
+          "typography_font_size": {
+            "unit": "px",
+            "size": 17,
+            "sizes": []
+          },
+          "typography_font_size_mobile": {
+            "unit": "px",
+            "size": 16,
+            "sizes": []
+          },
+          "typography_line_height": {
+            "unit": "em",
+            "size": 1.7,
+            "sizes": []
+          }
+        },
+        {
+          "_id": "t4d5e6f7",
+          "title": "Accent",
+          "typography_typography": "custom",
+          "typography_font_family": "Inter",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+            "unit": "px",
+            "size": 14,
+            "sizes": []
+          },
+          "typography_text_transform": "uppercase",
+          "typography_line_height": {
+            "unit": "em",
+            "size": 1.4,
+            "sizes": []
+          },
+          "typography_letter_spacing": {
+            "unit": "px",
+            "size": 0,
+            "sizes": []
+          }
+        }
+      ],
+      "custom_typography": [
+        {
+          "_id": "t5e6f7a8",
+          "title": "Menu",
+          "typography_typography": "custom",
+          "typography_font_family": "Inter",
+          "typography_font_weight": "600",
+          "typography_font_size": {
+            "unit": "px",
+            "size": 15,
+            "sizes": []
+          },
+          "typography_line_height": {
+            "unit": "em",
+            "size": 1.4,
+            "sizes": []
+          }
+        },
+        {
+          "_id": "t6f7a8b9",
+          "title": "Botones",
+          "typography_typography": "custom",
+          "typography_font_family": "Inter",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+            "unit": "px",
+            "size": 15,
+            "sizes": []
+          },
+          "typography_line_height": {
+            "unit": "em",
+            "size": 1.2,
+            "sizes": []
+          }
+        },
+        {
+          "_id": "t7a8b9c0",
+          "title": "Tarjetas",
+          "typography_typography": "custom",
+          "typography_font_family": "Space Grotesk",
+          "typography_font_weight": "600",
+          "typography_font_size": {
+            "unit": "px",
+            "size": 24,
+            "sizes": []
+          },
+          "typography_font_size_mobile": {
+            "unit": "px",
+            "size": 21,
+            "sizes": []
+          },
+          "typography_line_height": {
+            "unit": "em",
+            "size": 1.25,
+            "sizes": []
+          }
+        }
+      ]
+    }
+  }

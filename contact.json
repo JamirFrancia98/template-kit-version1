@@ -1,0 +1,392 @@
+{
+    "version": "0.4",
+    "title": "Contacto",
+    "type": "page",
+    "metadata": {
+      "template_type": "single-page",
+      "include_in_zip": "1",
+      "elementor_pro_required": "1",
+      "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+      {
+        "id": "4c6e7f8a",
+        "elType": "section",
+        "settings": {
+          "layout": "boxed",
+          "content_width": {
+            "unit": "px",
+            "size": 980,
+            "sizes": []
+          },
+          "background_background": "classic",
+          "background_color": "#10131A",
+          "padding": {
+            "unit": "px",
+            "top": "110",
+            "right": "32",
+            "bottom": "76",
+            "left": "32",
+            "isLinked": false
+          },
+          "__globals__": {
+            "background_color": "globals/colors?id=c9d0e1f2"
+          }
+        },
+        "elements": [
+          {
+            "id": "5d7f8a9b",
+            "elType": "column",
+            "settings": {
+              "_column_size": 100
+            },
+            "elements": [
+              {
+                "id": "6e8a9b0c",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Hablemos de tu proyecto",
+                  "header_size": "h1",
+                  "align": "center",
+                  "title_color": "#F5F7FA",
+                  "_animation": "fadeInUp",
+                  "__globals__": {
+                    "title_color": "globals/colors?id=c3d4e5f6",
+                    "typography_typography": "globals/typography?id=t1a2b3c4"
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "7f9b0c1d",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Cuentame que necesitas construir, mejorar o lanzar. Te respondere con los siguientes pasos para avanzar de forma simple.",
+                  "header_size": "p",
+                  "align": "center",
+                  "title_color": "#A8B3C7",
+                  "__globals__": {
+                    "title_color": "globals/colors?id=a3b4c5d6",
+                    "typography_typography": "globals/typography?id=t3c4d5e6"
+                  }
+                },
+                "elements": []
+              }
+            ],
+            "isInner": false
+          }
+        ],
+        "isInner": false
+      },
+      {
+        "id": "8a0c1d2e",
+        "elType": "section",
+        "settings": {
+          "layout": "boxed",
+          "content_width": {
+            "unit": "px",
+            "size": 900,
+            "sizes": []
+          },
+          "background_background": "classic",
+          "background_color": "#070A0F",
+          "padding": {
+            "unit": "px",
+            "top": "70",
+            "right": "32",
+            "bottom": "80",
+            "left": "32",
+            "isLinked": false
+          },
+          "__globals__": {
+            "background_color": "globals/colors?id=d0e1f2a3"
+          }
+        },
+        "elements": [
+          {
+            "id": "9b1d2e3f",
+            "elType": "column",
+            "settings": {
+              "_column_size": 100,
+              "_background_background": "classic",
+              "_background_color": "#171C26",
+              "_border_radius": {
+                "unit": "px",
+                "top": "8",
+                "right": "8",
+                "bottom": "8",
+                "left": "8",
+                "isLinked": true
+              },
+              "_padding": {
+                "unit": "px",
+                "top": "42",
+                "right": "42",
+                "bottom": "42",
+                "left": "42",
+                "isLinked": false
+              }
+            },
+            "elements": [
+              {
+                "id": "0c2e3f4a",
+                "elType": "widget",
+                "widgetType": "form",
+                "settings": {
+                  "form_name": "Formulario de contacto",
+                  "form_fields": [
+                    {
+                      "custom_id": "nombre",
+                      "field_type": "text",
+                      "field_label": "Nombre",
+                      "placeholder": "Tu nombre",
+                      "required": true,
+                      "width": "50"
+                    },
+                    {
+                      "custom_id": "email",
+                      "field_type": "email",
+                      "field_label": "Email",
+                      "placeholder": "tu@email.com",
+                      "required": true,
+                      "width": "50"
+                    },
+                    {
+                      "custom_id": "asunto",
+                      "field_type": "text",
+                      "field_label": "Asunto",
+                      "placeholder": "Motivo del mensaje",
+                      "required": false,
+                      "width": "100"
+                    },
+                    {
+                      "custom_id": "mensaje",
+                      "field_type": "textarea",
+                      "field_label": "Mensaje",
+                      "placeholder": "Cuentame brevemente sobre tu proyecto",
+                      "required": true,
+                      "width": "100",
+                      "rows": 6
+                    }
+                  ],
+                  "button_text": "Enviar mensaje",
+                  "button_width": "100",
+                  "button_align": "stretch",
+                  "submit_actions": [
+                    "email"
+                  ],
+                  "email_to": "hola@marcosvidal.com",
+                  "email_subject": "Nuevo mensaje desde el portfolio",
+                  "label_color": "#F5F7FA",
+                  "field_text_color": "#F5F7FA",
+                  "field_background_color": "#10131A",
+                  "field_border_color": "#2A3142",
+                  "button_background_color": "#7C5CFF",
+                  "button_background_hover_color": "#20E3B2",
+                  "button_text_color": "#FFFFFF",
+                  "button_hover_color": "#070A0F",
+                  "__globals__": {
+                    "label_color": "globals/colors?id=c3d4e5f6",
+                    "field_text_color": "globals/colors?id=c3d4e5f6",
+                    "field_background_color": "globals/colors?id=c9d0e1f2",
+                    "field_border_color": "globals/colors?id=a7b8c9d0",
+                    "button_background_color": "globals/colors?id=e5f6a7b8",
+                    "button_background_hover_color": "globals/colors?id=f6a7b8c9",
+                    "button_typography_typography": "globals/typography?id=t6f7a8b9"
+                  }
+                },
+                "elements": []
+              }
+            ],
+            "isInner": false
+          }
+        ],
+        "isInner": false
+      },
+      {
+        "id": "1d3f4a5b",
+        "elType": "section",
+        "settings": {
+          "layout": "boxed",
+          "content_width": {
+            "unit": "px",
+            "size": 1180,
+            "sizes": []
+          },
+          "structure": "30",
+          "background_background": "classic",
+          "background_color": "#10131A",
+          "padding": {
+            "unit": "px",
+            "top": "84",
+            "right": "32",
+            "bottom": "84",
+            "left": "32",
+            "isLinked": false
+          },
+          "__globals__": {
+            "background_color": "globals/colors?id=c9d0e1f2"
+          }
+        },
+        "elements": [
+          {
+            "id": "2e4a5b6c",
+            "elType": "column",
+            "settings": {
+              "_column_size": 33
+            },
+            "elements": [
+              {
+                "id": "3f5b6c7d",
+                "elType": "widget",
+                "widgetType": "icon-box",
+                "settings": {
+                  "selected_icon": {
+                    "value": "fas fa-envelope",
+                    "library": "fa-solid"
+                  },
+                  "title_text": "Email",
+                  "description_text": "hola@marcosvidal.com",
+                  "primary_color": "#20E3B2",
+                  "title_color": "#F5F7FA",
+                  "description_color": "#A8B3C7",
+                  "__globals__": {
+                    "primary_color": "globals/colors?id=e1f2a3b4",
+                    "title_color": "globals/colors?id=c3d4e5f6",
+                    "description_color": "globals/colors?id=a3b4c5d6"
+                  }
+                },
+                "elements": []
+              }
+            ],
+            "isInner": false
+          },
+          {
+            "id": "4a6c7d8e",
+            "elType": "column",
+            "settings": {
+              "_column_size": 33
+            },
+            "elements": [
+              {
+                "id": "5b7d8e9f",
+                "elType": "widget",
+                "widgetType": "icon-box",
+                "settings": {
+                  "selected_icon": {
+                    "value": "fas fa-phone",
+                    "library": "fa-solid"
+                  },
+                  "title_text": "Telefono",
+                  "description_text": "+34 600 123 456",
+                  "primary_color": "#7C5CFF",
+                  "title_color": "#F5F7FA",
+                  "description_color": "#A8B3C7",
+                  "__globals__": {
+                    "primary_color": "globals/colors?id=a1b2c3d4",
+                    "title_color": "globals/colors?id=c3d4e5f6",
+                    "description_color": "globals/colors?id=a3b4c5d6"
+                  }
+                },
+                "elements": []
+              }
+            ],
+            "isInner": false
+          },
+          {
+            "id": "6c8e9f0a",
+            "elType": "column",
+            "settings": {
+              "_column_size": 33
+            },
+            "elements": [
+              {
+                "id": "7d9f0a1b",
+                "elType": "widget",
+                "widgetType": "icon-box",
+                "settings": {
+                  "selected_icon": {
+                    "value": "fas fa-globe",
+                    "library": "fa-solid"
+                  },
+                  "title_text": "Disponibilidad",
+                  "description_text": "Disponible para proyectos remotos",
+                  "primary_color": "#FFB86B",
+                  "title_color": "#F5F7FA",
+                  "description_color": "#A8B3C7",
+                  "__globals__": {
+                    "primary_color": "globals/colors?id=f2a3b4c5",
+                    "title_color": "globals/colors?id=c3d4e5f6",
+                    "description_color": "globals/colors?id=a3b4c5d6"
+                  }
+                },
+                "elements": []
+              }
+            ],
+            "isInner": false
+          }
+        ],
+        "isInner": false
+      },
+      {
+        "id": "8e0a1b2c",
+        "elType": "section",
+        "settings": {
+          "layout": "boxed",
+          "content_width": {
+            "unit": "px",
+            "size": 1180,
+            "sizes": []
+          },
+          "background_background": "classic",
+          "background_color": "#070A0F",
+          "padding": {
+            "unit": "px",
+            "top": "78",
+            "right": "32",
+            "bottom": "110",
+            "left": "32",
+            "isLinked": false
+          },
+          "__globals__": {
+            "background_color": "globals/colors?id=d0e1f2a3"
+          }
+        },
+        "elements": [
+          {
+            "id": "9f1b2c3d",
+            "elType": "column",
+            "settings": {
+              "_column_size": 100
+            },
+            "elements": [
+              {
+                "id": "0a2c3d4e",
+                "elType": "widget",
+                "widgetType": "google_maps",
+                "settings": {
+                  "address": "Madrid, Espana",
+                  "zoom": {
+                    "unit": "px",
+                    "size": 12,
+                    "sizes": []
+                  },
+                  "height": {
+                    "unit": "px",
+                    "size": 360,
+                    "sizes": []
+                  },
+                  "prevent_scroll": "yes"
+                },
+                "elements": []
+              }
+            ],
+            "isInner": false
+          }
+        ],
+        "isInner": false
+      }
+    ]
+  }

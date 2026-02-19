@@ -1,0 +1,81 @@
+{
+    "manifest_version": "1.0",
+    "title": "Portfolio Freelancer Nocturno",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+      {
+        "name": "Global Kit Styles",
+        "source": "global.json",
+        "type": "section",
+        "category": "global",
+        "metadata": {
+          "template_type": "global-styles"
+        }
+      },
+      {
+        "name": "Header Portfolio Freelancer",
+        "source": "header.json",
+        "type": "header",
+        "category": "header",
+        "metadata": {
+          "template_type": "section-header",
+          "elementor_library_type": "header",
+          "elementor_pro_required": "1"
+        }
+      },
+      {
+        "name": "Footer Portfolio Freelancer",
+        "source": "footer.json",
+        "type": "footer",
+        "category": "footer",
+        "metadata": {
+          "template_type": "section-footer",
+          "elementor_library_type": "footer",
+          "elementor_pro_required": "1"
+        }
+      },
+      {
+        "name": "Inicio",
+        "source": "home.json",
+        "type": "page",
+        "category": "page",
+        "metadata": {
+          "template_type": "single-page",
+          "wp_page_template": "elementor_header_footer"
+        }
+      },
+      {
+        "name": "Sobre mi",
+        "source": "about.json",
+        "type": "page",
+        "category": "page",
+        "metadata": {
+          "template_type": "single-page",
+          "wp_page_template": "elementor_header_footer"
+        }
+      },
+      {
+        "name": "Contacto",
+        "source": "contact.json",
+        "type": "page",
+        "category": "page",
+        "metadata": {
+          "template_type": "single-page",
+          "wp_page_template": "elementor_header_footer"
+        }
+      }
+    ],
+    "required_plugins": [
+      {
+        "name": "Elementor",
+        "slug": "elementor",
+        "required": true
+      },
+      {
+        "name": "Elementor Pro",
+        "slug": "elementor-pro",
+        "required": true
+      }
+    ]
+  }
