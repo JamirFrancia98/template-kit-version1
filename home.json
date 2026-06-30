@@ -1,712 +1,1536 @@
 {
-    "version": "0.4",
-    "title": "Inicio",
-    "type": "page",
-    "metadata": {
-      "template_type": "single-page",
-      "include_in_zip": "1",
-      "elementor_pro_required": "1",
-      "wp_page_template": "elementor_header_footer"
+  "content": [
+    {
+      "id": "home-hero",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#070A0F",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "0",
+          "bottom": "120",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "hero-inner",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": {
+              "unit": "%",
+              "size": 80
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 40,
+              "columns": "40",
+              "rows": "40"
+            }
+          },
+          "elements": [
+            {
+              "id": "hero-left",
+              "elType": "container",
+              "settings": {
+                "content_width": "boxed",
+                "width": {
+                  "unit": "%",
+                  "size": 60
+                }
+              },
+              "elements": [
+                {
+                  "id": "hero-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Creamos apps que la gente ama",
+                    "header_size": "h1",
+                    "color": "#F5F7FA",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 56
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.1
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -1.5
+                    }
+                  }
+                },
+                {
+                  "id": "hero-subtitle",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='color: #A0A8B5; font-size: 18px; line-height: 1.6; margin-top: 16px;'>Diseñamos y desarrollamos soluciones digitales a medida, con tecnología de punta y un enfoque centrado en el usuario.</p>",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    }
+                  }
+                },
+                {
+                  "id": "hero-buttons",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "32",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "btn-primary",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Descargar ahora",
+                        "button_text_color": "#FFFFFF",
+                        "background_color": "#7C5CFF",
+                        "hover_background_color": "#20E3B2",
+                        "hover_text_color": "#070A0F",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "8",
+                          "right": "8",
+                          "bottom": "8",
+                          "left": "8",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "32",
+                          "bottom": "14",
+                          "left": "32",
+                          "isLinked": false
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        }
+                      }
+                    },
+                    {
+                      "id": "btn-secondary",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explorar más",
+                        "button_text_color": "#F5F7FA",
+                        "background_color": "transparent",
+                        "hover_background_color": "rgba(124,92,255,0.15)",
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#7C5CFF",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "8",
+                          "right": "8",
+                          "bottom": "8",
+                          "left": "8",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "32",
+                          "bottom": "14",
+                          "left": "32",
+                          "isLinked": false
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hero-right",
+              "elType": "container",
+              "settings": {
+                "content_width": "boxed",
+                "width": {
+                  "unit": "%",
+                  "size": 40
+                },
+                "justify_content": "flex-end"
+              },
+              "elements": [
+                {
+                  "id": "hero-image",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://placehold.co/600x400/171C26/7C5CFF?text=App+Showcase",
+                      "id": ""
+                    },
+                    "image_size": "full",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 20,
+                      "blur": 40,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.5)"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
-    "content": [
-      {
-        "id": "0b1c2d3e",
-        "elType": "section",
-        "settings": {
-          "layout": "boxed",
-          "content_width": {
-            "unit": "px",
-            "size": 1180,
-            "sizes": []
-          },
-          "height": "min-height",
-          "custom_height": {
-            "unit": "vh",
-            "size": 84,
-            "sizes": []
-          },
-          "structure": "20",
-          "background_background": "classic",
-          "background_color": "#10131A",
-          "background_image": {
-            "url": "https://via.placeholder.com/1600x900",
-            "id": "",
-            "size": "",
-            "alt": "Ilustracion abstracta de fondo para portfolio freelance",
-            "source": "library"
-          },
-          "background_position": "center center",
-          "background_repeat": "no-repeat",
-          "background_size": "cover",
-          "background_overlay_background": "classic",
-          "background_overlay_color": "#070A0F",
-          "background_overlay_opacity": {
-            "unit": "px",
-            "size": 0.78,
-            "sizes": []
-          },
-          "padding": {
-            "unit": "px",
-            "top": "120",
-            "right": "32",
-            "bottom": "110",
-            "left": "32",
-            "isLinked": false
-          },
-          "padding_mobile": {
-            "unit": "px",
-            "top": "86",
-            "right": "20",
-            "bottom": "76",
-            "left": "20",
-            "isLinked": false
-          },
-          "__globals__": {
-            "background_color": "globals/colors?id=c9d0e1f2"
-          }
-        },
-        "elements": [
-          {
-            "id": "1c2d3e4f",
-            "elType": "column",
-            "settings": {
-              "_column_size": 62,
-              "_inline_size": 62,
-              "content_position": "center"
-            },
-            "elements": [
-              {
-                "id": "2d3e4f5a",
-                "elType": "widget",
-                "widgetType": "heading",
-                "settings": {
-                  "title": "Marcos Vidal",
-                  "header_size": "h1",
-                  "title_color": "#20E3B2",
-                  "_animation": "fadeInUp",
-                  "__globals__": {
-                    "title_color": "globals/colors?id=e1f2a3b4",
-                    "typography_typography": "globals/typography?id=t4d5e6f7"
-                  }
-                },
-                "elements": []
-              },
-              {
-                "id": "3e4f5a6b",
-                "elType": "widget",
-                "widgetType": "heading",
-                "settings": {
-                  "title": "Disenador y Desarrollador Freelance para marcas digitales",
-                  "header_size": "h1",
-                  "title_color": "#F5F7FA",
-                  "_animation": "fadeInUp",
-                  "_animation_delay": 120,
-                  "__globals__": {
-                    "title_color": "globals/colors?id=c3d4e5f6",
-                    "typography_typography": "globals/typography?id=t1a2b3c4"
-                  }
-                },
-                "elements": []
-              },
-              {
-                "id": "4f5a6b7c",
-                "elType": "widget",
-                "widgetType": "heading",
-                "settings": {
-                  "title": "Creo sitios web, identidades visuales y experiencias digitales claras, rapidas y listas para convertir visitantes en oportunidades reales.",
-                  "header_size": "p",
-                  "title_color": "#A8B3C7",
-                  "_animation": "fadeInUp",
-                  "_animation_delay": 220,
-                  "__globals__": {
-                    "title_color": "globals/colors?id=a3b4c5d6",
-                    "typography_typography": "globals/typography?id=t3c4d5e6"
-                  }
-                },
-                "elements": []
-              },
-              {
-                "id": "5a6b7c8d",
-                "elType": "widget",
-                "widgetType": "button",
-                "settings": {
-                  "text": "Ver mi trabajo",
-                  "link": {
-                    "url": "#portfolio",
-                    "is_external": "",
-                    "nofollow": ""
-                  },
-                  "background_color": "#7C5CFF",
-                  "button_background_hover_color": "#20E3B2",
-                  "button_text_color": "#FFFFFF",
-                  "hover_color": "#070A0F",
-                  "border_radius": {
-                    "unit": "px",
-                    "top": "8",
-                    "right": "8",
-                    "bottom": "8",
-                    "left": "8",
-                    "isLinked": true
-                  },
-                  "text_padding": {
-                    "unit": "px",
-                    "top": "16",
-                    "right": "28",
-                    "bottom": "16",
-                    "left": "28",
-                    "isLinked": false
-                  },
-                  "_animation": "fadeInUp",
-                  "_animation_delay": 320,
-                  "__globals__": {
-                    "background_color": "globals/colors?id=e5f6a7b8",
-                    "button_background_hover_color": "globals/colors?id=f6a7b8c9",
-                    "typography_typography": "globals/typography?id=t6f7a8b9"
-                  }
-                },
-                "elements": []
-              }
-            ],
-            "isInner": false
-          },
-          {
-            "id": "6b7c8d9e",
-            "elType": "column",
-            "settings": {
-              "_column_size": 38,
-              "_inline_size": 38,
-              "content_position": "center"
-            },
-            "elements": [
-              {
-                "id": "7c8d9e0f",
-                "elType": "widget",
-                "widgetType": "image",
-                "settings": {
-                  "image": {
-                    "url": "https://via.placeholder.com/800x600",
-                    "id": "",
-                    "size": "",
-                    "alt": "Retrato profesional de freelancer creativo",
-                    "source": "library"
-                  },
-                  "image_size": "large",
-                  "border_radius": {
-                    "unit": "px",
-                    "top": "18",
-                    "right": "18",
-                    "bottom": "18",
-                    "left": "18",
-                    "isLinked": true
-                  },
-                  "_animation": "fadeInUp",
-                  "_animation_delay": 220
-                },
-                "elements": []
-              }
-            ],
-            "isInner": false
-          }
-        ],
-        "isInner": false
+    {
+      "id": "services-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#10131A",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "0",
+          "bottom": "80",
+          "left": "0",
+          "isLinked": false
+        }
       },
-      {
-        "id": "8d9e0f1a",
-        "elType": "section",
-        "settings": {
-          "layout": "boxed",
-          "content_width": {
-            "unit": "px",
-            "size": 1180,
-            "sizes": []
+      "elements": [
+        {
+          "id": "services-header",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": {
+              "unit": "%",
+              "size": 80
+            },
+            "flex_direction": "column",
+            "align_items": "center",
+            "margin": {
+              "unit": "px",
+              "bottom": "48"
+            }
           },
-          "structure": "40",
-          "background_background": "classic",
-          "background_color": "#070A0F",
-          "padding": {
-            "unit": "px",
-            "top": "96",
-            "right": "32",
-            "bottom": "96",
-            "left": "32",
-            "isLinked": false
-          },
-          "__globals__": {
-            "background_color": "globals/colors?id=d0e1f2a3"
-          }
+          "elements": [
+            {
+              "id": "services-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Nuestros servicios",
+                "header_size": "h2",
+                "color": "#F5F7FA",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 40
+                },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -0.5
+                },
+                "align": "center"
+              }
+            },
+            {
+              "id": "services-sub",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #A0A8B5; font-size: 18px; text-align: center; max-width: 600px; margin: 0 auto;'>Soluciones integrales para llevar tu idea al siguiente nivel.</p>"
+              }
+            }
+          ]
         },
-        "elements": [
-          {
-            "id": "9e0f1a2b",
-            "elType": "column",
-            "settings": {
-              "_column_size": 25
+        {
+          "id": "services-grid",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": {
+              "unit": "%",
+              "size": 80
             },
-            "elements": [
-              {
-                "id": "0f1a2b3c",
-                "elType": "widget",
-                "widgetType": "icon-box",
-                "settings": {
-                  "selected_icon": {
-                    "value": "fas fa-pen-nib",
-                    "library": "fa-solid"
-                  },
-                  "title_text": "Diseno UI/UX",
-                  "description_text": "Interfaces limpias, sistemas visuales consistentes y flujos pensados para usuarios reales.",
-                  "primary_color": "#20E3B2",
-                  "title_color": "#F5F7FA",
-                  "description_color": "#A8B3C7",
-                  "_background_background": "classic",
-                  "_background_color": "#171C26",
-                  "_border_radius": {
-                    "unit": "px",
-                    "top": "8",
-                    "right": "8",
-                    "bottom": "8",
-                    "left": "8",
-                    "isLinked": true
-                  },
-                  "_padding": {
-                    "unit": "px",
-                    "top": "34",
-                    "right": "28",
-                    "bottom": "34",
-                    "left": "28",
-                    "isLinked": false
-                  },
-                  "__globals__": {
-                    "primary_color": "globals/colors?id=e1f2a3b4",
-                    "title_color": "globals/colors?id=c3d4e5f6",
-                    "description_color": "globals/colors?id=a3b4c5d6",
-                    "title_typography_typography": "globals/typography?id=t7a8b9c0"
-                  }
-                },
-                "elements": []
-              }
-            ],
-            "isInner": false
+            "flex_direction": "row",
+            "flex_gap": {
+              "unit": "px",
+              "size": 24
+            }
           },
-          {
-            "id": "1a2b3c5e",
-            "elType": "column",
-            "settings": {
-              "_column_size": 25
-            },
-            "elements": [
-              {
-                "id": "2b3c5e6f",
-                "elType": "widget",
-                "widgetType": "icon-box",
-                "settings": {
-                  "selected_icon": {
-                    "value": "fas fa-code",
-                    "library": "fa-solid"
-                  },
-                  "title_text": "Desarrollo Web",
-                  "description_text": "Webs rapidas en WordPress, Elementor Pro y front-end moderno, faciles de gestionar.",
-                  "primary_color": "#7C5CFF",
-                  "title_color": "#F5F7FA",
-                  "description_color": "#A8B3C7",
-                  "_background_background": "classic",
-                  "_background_color": "#171C26",
-                  "_border_radius": {
-                    "unit": "px",
-                    "top": "8",
-                    "right": "8",
-                    "bottom": "8",
-                    "left": "8",
-                    "isLinked": true
-                  },
-                  "_padding": {
-                    "unit": "px",
-                    "top": "34",
-                    "right": "28",
-                    "bottom": "34",
-                    "left": "28",
-                    "isLinked": false
-                  },
-                  "__globals__": {
-                    "primary_color": "globals/colors?id=a1b2c3d4",
-                    "title_color": "globals/colors?id=c3d4e5f6",
-                    "description_color": "globals/colors?id=a3b4c5d6"
+          "elements": [
+            {
+              "id": "service-1",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#171C26",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 10,
+                  "blur": 30,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.2)"
+                },
+                "flex_direction": "column",
+                "align_items": "flex-start"
+              },
+              "elements": [
+                {
+                  "id": "icon-1",
+                  "elType": "widget",
+                  "widgetType": "icon",
+                  "settings": {
+                    "icon": "fas fa-mobile-alt",
+                    "view": "default",
+                    "icon_color": "#7C5CFF",
+                    "size": {
+                      "unit": "px",
+                      "size": 40
+                    }
                   }
                 },
-                "elements": []
-              }
-            ],
-            "isInner": false
-          },
-          {
-            "id": "3c5e6f7a",
-            "elType": "column",
-            "settings": {
-              "_column_size": 25
-            },
-            "elements": [
-              {
-                "id": "4e6f7a8b",
-                "elType": "widget",
-                "widgetType": "icon-box",
-                "settings": {
-                  "selected_icon": {
-                    "value": "fas fa-bolt",
-                    "library": "fa-solid"
-                  },
-                  "title_text": "Branding Digital",
-                  "description_text": "Identidades memorables, paletas, componentes y guias visuales para crecer con coherencia.",
-                  "primary_color": "#FFB86B",
-                  "title_color": "#F5F7FA",
-                  "description_color": "#A8B3C7",
-                  "_background_background": "classic",
-                  "_background_color": "#171C26",
-                  "_border_radius": {
-                    "unit": "px",
-                    "top": "8",
-                    "right": "8",
-                    "bottom": "8",
-                    "left": "8",
-                    "isLinked": true
-                  },
-                  "_padding": {
-                    "unit": "px",
-                    "top": "34",
-                    "right": "28",
-                    "bottom": "34",
-                    "left": "28",
-                    "isLinked": false
-                  },
-                  "__globals__": {
-                    "primary_color": "globals/colors?id=f2a3b4c5",
-                    "title_color": "globals/colors?id=c3d4e5f6",
-                    "description_color": "globals/colors?id=a3b4c5d6"
+                {
+                  "id": "s-title-1",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Desarrollo de Apps",
+                    "header_size": "h3",
+                    "color": "#F5F7FA",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "600",
+                    "margin": {
+                      "unit": "px",
+                      "top": "16",
+                      "bottom": "8"
+                    }
                   }
                 },
-                "elements": []
-              }
-            ],
-            "isInner": false
-          },
-          {
-            "id": "5f7a8b9c",
-            "elType": "column",
-            "settings": {
-              "_column_size": 25
+                {
+                  "id": "s-desc-1",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='color: #A0A8B5; font-size: 15px; line-height: 1.5;'>Apps nativas e híbridas con experiencias fluidas y alto rendimiento.</p>"
+                  }
+                }
+              ]
             },
-            "elements": [
-              {
-                "id": "6a8b9c0d",
-                "elType": "widget",
-                "widgetType": "icon-box",
-                "settings": {
-                  "selected_icon": {
-                    "value": "fas fa-chart-line",
-                    "library": "fa-solid"
-                  },
-                  "title_text": "Consultoria",
-                  "description_text": "Auditorias, estrategia y prioridades claras para mejorar presencia digital y conversion.",
-                  "primary_color": "#20E3B2",
-                  "title_color": "#F5F7FA",
-                  "description_color": "#A8B3C7",
-                  "_background_background": "classic",
-                  "_background_color": "#171C26",
-                  "_border_radius": {
-                    "unit": "px",
-                    "top": "8",
-                    "right": "8",
-                    "bottom": "8",
-                    "left": "8",
-                    "isLinked": true
-                  },
-                  "_padding": {
-                    "unit": "px",
-                    "top": "34",
-                    "right": "28",
-                    "bottom": "34",
-                    "left": "28",
-                    "isLinked": false
-                  },
-                  "__globals__": {
-                    "primary_color": "globals/colors?id=e1f2a3b4",
-                    "title_color": "globals/colors?id=c3d4e5f6",
-                    "description_color": "globals/colors?id=a3b4c5d6"
+            {
+              "id": "service-2",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#171C26",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 10,
+                  "blur": 30,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.2)"
+                },
+                "flex_direction": "column",
+                "align_items": "flex-start"
+              },
+              "elements": [
+                {
+                  "id": "icon-2",
+                  "elType": "widget",
+                  "widgetType": "icon",
+                  "settings": {
+                    "icon": "fas fa-paint-brush",
+                    "view": "default",
+                    "icon_color": "#20E3B2",
+                    "size": {
+                      "unit": "px",
+                      "size": 40
+                    }
                   }
                 },
-                "elements": []
-              }
-            ],
-            "isInner": false
-          }
-        ],
-        "isInner": false
+                {
+                  "id": "s-title-2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Diseño UI/UX",
+                    "header_size": "h3",
+                    "color": "#F5F7FA",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "600",
+                    "margin": {
+                      "unit": "px",
+                      "top": "16",
+                      "bottom": "8"
+                    }
+                  }
+                },
+                {
+                  "id": "s-desc-2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='color: #A0A8B5; font-size: 15px; line-height: 1.5;'>Interfaces intuitivas y atractivas que conectan con tu audiencia.</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "service-3",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#171C26",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 10,
+                  "blur": 30,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.2)"
+                },
+                "flex_direction": "column",
+                "align_items": "flex-start"
+              },
+              "elements": [
+                {
+                  "id": "icon-3",
+                  "elType": "widget",
+                  "widgetType": "icon",
+                  "settings": {
+                    "icon": "fas fa-cloud",
+                    "view": "default",
+                    "icon_color": "#7C5CFF",
+                    "size": {
+                      "unit": "px",
+                      "size": 40
+                    }
+                  }
+                },
+                {
+                  "id": "s-title-3",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Consultoría Tech",
+                    "header_size": "h3",
+                    "color": "#F5F7FA",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "600",
+                    "margin": {
+                      "unit": "px",
+                      "top": "16",
+                      "bottom": "8"
+                    }
+                  }
+                },
+                {
+                  "id": "s-desc-3",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='color: #A0A8B5; font-size: 15px; line-height: 1.5;'>Asesoramiento estratégico para optimizar tus procesos digitales.</p>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "gradient",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": 135,
+        "background_gradient_color": "#070A0F",
+        "background_gradient_color_stop": 0,
+        "background_gradient_color_b": "#10131A",
+        "background_gradient_color_b_stop": 100,
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "0",
+          "bottom": "60",
+          "left": "0",
+          "isLinked": false
+        }
       },
-      {
-        "id": "7b9c0d1e",
-        "elType": "section",
-        "settings": {
-          "layout": "boxed",
-          "content_width": {
-            "unit": "px",
-            "size": 1180,
-            "sizes": []
-          },
-          "structure": "30",
-          "background_background": "classic",
-          "background_color": "#10131A",
-          "padding": {
-            "unit": "px",
-            "top": "96",
-            "right": "32",
-            "bottom": "96",
-            "left": "32",
-            "isLinked": false
-          },
-          "__globals__": {
-            "background_color": "globals/colors?id=c9d0e1f2"
-          }
-        },
-        "elements": [
-          {
-            "id": "8c0d1e2f",
-            "elType": "column",
-            "settings": {
-              "_column_size": 33
+      "elements": [
+        {
+          "id": "stats-container",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": {
+              "unit": "%",
+              "size": 80
             },
-            "elements": [
-              {
-                "id": "9d1e2f3a",
-                "elType": "widget",
-                "widgetType": "image",
-                "settings": {
-                  "image": {
-                    "url": "https://via.placeholder.com/800x600",
-                    "id": "",
-                    "size": "",
-                    "alt": "Proyecto de ecommerce minimalista",
-                    "source": "library"
-                  },
-                  "image_size": "large",
-                  "_border_radius": {
-                    "unit": "px",
-                    "top": "8",
-                    "right": "8",
-                    "bottom": "8",
-                    "left": "8",
-                    "isLinked": true
-                  }
-                },
-                "elements": []
-              },
-              {
-                "id": "0e2f3a4b",
-                "elType": "widget",
-                "widgetType": "heading",
-                "settings": {
-                  "title": "Nexa Studio",
-                  "header_size": "h3",
-                  "title_color": "#F5F7FA",
-                  "__globals__": {
-                    "title_color": "globals/colors?id=c3d4e5f6",
-                    "typography_typography": "globals/typography?id=t7a8b9c0"
-                  }
-                },
-                "elements": []
-              },
-              {
-                "id": "1f3a4b5c",
-                "elType": "widget",
-                "widgetType": "heading",
-                "settings": {
-                  "title": "Identidad visual y sitio corporativo",
-                  "header_size": "p",
-                  "title_color": "#A8B3C7",
-                  "__globals__": {
-                    "title_color": "globals/colors?id=a3b4c5d6",
-                    "typography_typography": "globals/typography?id=t3c4d5e6"
-                  }
-                },
-                "elements": []
-              }
-            ],
-            "isInner": false
+            "flex_direction": "row",
+            "justify_content": "space-between",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20
+            }
           },
-          {
-            "id": "2a4b5c6d",
-            "elType": "column",
-            "settings": {
-              "_column_size": 33
+          "elements": [
+            {
+              "id": "stat-1",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "stat-number-1",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "1200+",
+                    "header_size": "h2",
+                    "color": "#7C5CFF",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.2
+                    }
+                  }
+                },
+                {
+                  "id": "stat-label-1",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='color: #F5F7FA; font-size: 16px; font-weight: 500;'>Proyectos completados</p>"
+                  }
+                }
+              ]
             },
-            "elements": [
-              {
-                "id": "3b5c6d7e",
-                "elType": "widget",
-                "widgetType": "image",
-                "settings": {
-                  "image": {
-                    "url": "https://via.placeholder.com/800x600",
-                    "id": "",
-                    "size": "",
-                    "alt": "Aplicacion web de analitica para startup",
-                    "source": "library"
-                  },
-                  "image_size": "large"
-                },
-                "elements": []
+            {
+              "id": "stat-2",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "align_items": "center"
               },
-              {
-                "id": "4c6d7e8f",
-                "elType": "widget",
-                "widgetType": "heading",
-                "settings": {
-                  "title": "Metric Flow",
-                  "header_size": "h3",
-                  "title_color": "#F5F7FA",
-                  "__globals__": {
-                    "title_color": "globals/colors?id=c3d4e5f6",
-                    "typography_typography": "globals/typography?id=t7a8b9c0"
+              "elements": [
+                {
+                  "id": "stat-number-2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "100+",
+                    "header_size": "h2",
+                    "color": "#20E3B2",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.2
+                    }
                   }
                 },
-                "elements": []
-              },
-              {
-                "id": "5d7e8f9a",
-                "elType": "widget",
-                "widgetType": "heading",
-                "settings": {
-                  "title": "Dashboard UI/UX y prototipado",
-                  "header_size": "p",
-                  "title_color": "#A8B3C7",
-                  "__globals__": {
-                    "title_color": "globals/colors?id=a3b4c5d6",
-                    "typography_typography": "globals/typography?id=t3c4d5e6"
+                {
+                  "id": "stat-label-2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='color: #F5F7FA; font-size: 16px; font-weight: 500;'>Clientes satisfechos</p>"
                   }
-                },
-                "elements": []
-              }
-            ],
-            "isInner": false
-          },
-          {
-            "id": "6e8f9a0b",
-            "elType": "column",
-            "settings": {
-              "_column_size": 33
+                }
+              ]
             },
-            "elements": [
-              {
-                "id": "7f9a0b1c",
-                "elType": "widget",
-                "widgetType": "image",
-                "settings": {
-                  "image": {
-                    "url": "https://via.placeholder.com/800x600",
-                    "id": "",
-                    "size": "",
-                    "alt": "Landing page para consultor independiente",
-                    "source": "library"
-                  },
-                  "image_size": "large"
-                },
-                "elements": []
+            {
+              "id": "stat-3",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "align_items": "center"
               },
-              {
-                "id": "8a0b1c2d",
-                "elType": "widget",
-                "widgetType": "heading",
-                "settings": {
-                  "title": "Clara Mentoria",
-                  "header_size": "h3",
-                  "title_color": "#F5F7FA",
-                  "__globals__": {
-                    "title_color": "globals/colors?id=c3d4e5f6",
-                    "typography_typography": "globals/typography?id=t7a8b9c0"
+              "elements": [
+                {
+                  "id": "stat-number-3",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "56+",
+                    "header_size": "h2",
+                    "color": "#7C5CFF",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.2
+                    }
                   }
                 },
-                "elements": []
+                {
+                  "id": "stat-label-3",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='color: #F5F7FA; font-size: 16px; font-weight: 500;'>Países disponibles</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "stat-4",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "align_items": "center"
               },
-              {
-                "id": "9b1c2d3e",
-                "elType": "widget",
-                "widgetType": "heading",
-                "settings": {
-                  "title": "Landing page de captacion",
-                  "header_size": "p",
-                  "title_color": "#A8B3C7",
-                  "__globals__": {
-                    "title_color": "globals/colors?id=a3b4c5d6",
-                    "typography_typography": "globals/typography?id=t3c4d5e6"
+              "elements": [
+                {
+                  "id": "stat-number-4",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "98%",
+                    "header_size": "h2",
+                    "color": "#20E3B2",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.2
+                    }
                   }
                 },
-                "elements": []
-              }
-            ],
-            "isInner": false
-          }
-        ],
-        "isInner": false
+                {
+                  "id": "stat-label-4",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='color: #F5F7FA; font-size: 16px; font-weight: 500;'>Tasa de retención</p>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "portfolio-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#10131A",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "0",
+          "bottom": "80",
+          "left": "0",
+          "isLinked": false
+        }
       },
-      {
-        "id": "0c2d3e4f",
-        "elType": "section",
-        "settings": {
-          "layout": "boxed",
-          "content_width": {
-            "unit": "px",
-            "size": 980,
-            "sizes": []
-          },
-          "background_background": "classic",
-          "background_color": "#070A0F",
-          "padding": {
-            "unit": "px",
-            "top": "96",
-            "right": "32",
-            "bottom": "110",
-            "left": "32",
-            "isLinked": false
-          },
-          "__globals__": {
-            "background_color": "globals/colors?id=d0e1f2a3"
-          }
-        },
-        "elements": [
-          {
-            "id": "1d3e4f5a",
-            "elType": "column",
-            "settings": {
-              "_column_size": 100
+      "elements": [
+        {
+          "id": "portfolio-header",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": {
+              "unit": "%",
+              "size": 80
             },
-            "elements": [
-              {
-                "id": "2e4f5a6b",
-                "elType": "widget",
-                "widgetType": "call-to-action",
-                "settings": {
-                  "title": "Tienes una idea? Hagamos que se vea y funcione mejor.",
-                  "description": "Cuentalo en pocas lineas y te respondere con una propuesta clara para avanzar.",
-                  "button": "Contactame",
-                  "link": {
-                    "url": "#contacto"
-                  },
-                  "title_color": "#F5F7FA",
-                  "description_color": "#A8B3C7",
-                  "button_text_color": "#FFFFFF",
-                  "button_background_color": "#7C5CFF",
-                  "button_background_hover_color": "#20E3B2",
-                  "__globals__": {
-                    "title_color": "globals/colors?id=c3d4e5f6",
-                    "description_color": "globals/colors?id=a3b4c5d6",
-                    "button_background_color": "globals/colors?id=e5f6a7b8",
-                    "button_background_hover_color": "globals/colors?id=f6a7b8c9"
+            "flex_direction": "column",
+            "align_items": "center",
+            "margin": {
+              "unit": "px",
+              "bottom": "48"
+            }
+          },
+          "elements": [
+            {
+              "id": "portfolio-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Nuestro portafolio",
+                "header_size": "h2",
+                "color": "#F5F7FA",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 40
+                },
+                "typography_font_weight": "700",
+                "align": "center"
+              }
+            },
+            {
+              "id": "portfolio-sub",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #A0A8B5; font-size: 18px; text-align: center; max-width: 600px; margin: 0 auto;'>Proyectos recientes que demuestran nuestra calidad y creatividad.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "portfolio-grid",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": {
+              "unit": "%",
+              "size": 80
+            },
+            "flex_direction": "row",
+            "flex_gap": {
+              "unit": "px",
+              "size": 24
+            }
+          },
+          "elements": [
+            {
+              "id": "project-1",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#171C26",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "overflow": "hidden",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "proj-img-1",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://placehold.co/600x400/171C26/7C5CFF?text=App+1",
+                      "id": ""
+                    },
+                    "image_size": "full",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
                   }
                 },
-                "elements": []
+                {
+                  "id": "proj-info-1",
+                  "elType": "container",
+                  "settings": {
+                    "padding": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    },
+                    "flex_direction": "column",
+                    "align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "proj-title-1",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Fintech App",
+                        "header_size": "h4",
+                        "color": "#F5F7FA",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20
+                        },
+                        "typography_font_weight": "600"
+                      }
+                    },
+                    {
+                      "id": "proj-cat-1",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='color: #7C5CFF; font-size: 14px; font-weight: 500;'>Desarrollo móvil</p>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "project-2",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#171C26",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "overflow": "hidden",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "proj-img-2",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://placehold.co/600x400/171C26/20E3B2?text=App+2",
+                      "id": ""
+                    },
+                    "image_size": "full",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "proj-info-2",
+                  "elType": "container",
+                  "settings": {
+                    "padding": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    },
+                    "flex_direction": "column",
+                    "align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "proj-title-2",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "E-commerce UI",
+                        "header_size": "h4",
+                        "color": "#F5F7FA",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20
+                        },
+                        "typography_font_weight": "600"
+                      }
+                    },
+                    {
+                      "id": "proj-cat-2",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='color: #20E3B2; font-size: 14px; font-weight: 500;'>Diseño UI/UX</p>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "project-3",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#171C26",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "overflow": "hidden",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "proj-img-3",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://placehold.co/600x400/171C26/7C5CFF?text=App+3",
+                      "id": ""
+                    },
+                    "image_size": "full",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "proj-info-3",
+                  "elType": "container",
+                  "settings": {
+                    "padding": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    },
+                    "flex_direction": "column",
+                    "align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "proj-title-3",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Dashboard Analytics",
+                        "header_size": "h4",
+                        "color": "#F5F7FA",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20
+                        },
+                        "typography_font_weight": "600"
+                      }
+                    },
+                    {
+                      "id": "proj-cat-3",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='color: #7C5CFF; font-size: 14px; font-weight: 500;'>Desarrollo web</p>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "project-4",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#171C26",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "overflow": "hidden",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "proj-img-4",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://placehold.co/600x400/171C26/20E3B2?text=App+4",
+                      "id": ""
+                    },
+                    "image_size": "full",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "proj-info-4",
+                  "elType": "container",
+                  "settings": {
+                    "padding": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    },
+                    "flex_direction": "column",
+                    "align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "proj-title-4",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "App de Salud",
+                        "header_size": "h4",
+                        "color": "#F5F7FA",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20
+                        },
+                        "typography_font_weight": "600"
+                      }
+                    },
+                    {
+                      "id": "proj-cat-4",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style='color: #20E3B2; font-size: 14px; font-weight: 500;'>Diseño UI/UX</p>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testimonials-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#070A0F",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "0",
+          "bottom": "80",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "testimonials-header",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": {
+              "unit": "%",
+              "size": 80
+            },
+            "flex_direction": "column",
+            "align_items": "center",
+            "margin": {
+              "unit": "px",
+              "bottom": "48"
+            }
+          },
+          "elements": [
+            {
+              "id": "testimonials-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Lo que dicen nuestros clientes",
+                "header_size": "h2",
+                "color": "#F5F7FA",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 40
+                },
+                "typography_font_weight": "700",
+                "align": "center"
               }
-            ],
-            "isInner": false
-          }
-        ],
-        "isInner": false
-      }
-    ]
-  }
+            }
+          ]
+        },
+        {
+          "id": "testimonials-grid",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": {
+              "unit": "%",
+              "size": 80
+            },
+            "flex_direction": "row",
+            "flex_gap": {
+              "unit": "px",
+              "size": 24
+            }
+          },
+          "elements": [
+            {
+              "id": "testimonial-1",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#171C26",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "flex_direction": "column",
+                "align_items": "flex-start"
+              },
+              "elements": [
+                {
+                  "id": "test-avatar-1",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://placehold.co/80x80/7C5CFF/FFFFFF?text=JD",
+                      "id": ""
+                    },
+                    "image_size": "thumbnail",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "px",
+                      "size": 64
+                    }
+                  }
+                },
+                {
+                  "id": "test-text-1",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='color: #A0A8B5; font-size: 16px; line-height: 1.6;'>Excelente trabajo. La app superó nuestras expectativas y la comunicación fue impecable.</p>"
+                  }
+                },
+                {
+                  "id": "test-name-1",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Juan Delgado",
+                    "header_size": "h4",
+                    "color": "#F5F7FA",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "600",
+                    "margin": {
+                      "unit": "px",
+                      "top": "12",
+                      "bottom": "4"
+                    }
+                  }
+                },
+                {
+                  "id": "test-role-1",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='color: #7C5CFF; font-size: 14px; font-weight: 500;'>CEO, FintechStart</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "testimonial-2",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#171C26",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "flex_direction": "column",
+                "align_items": "flex-start"
+              },
+              "elements": [
+                {
+                  "id": "test-avatar-2",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://placehold.co/80x80/20E3B2/070A0F?text=MR",
+                      "id": ""
+                    },
+                    "image_size": "thumbnail",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "width": {
+                      "unit": "px",
+                      "size": 64
+                    }
+                  }
+                },
+                {
+                  "id": "test-text-2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='color: #A0A8B5; font-size: 16px; line-height: 1.6;'>El diseño UI/UX transformó por completo la experiencia de nuestros usuarios. Muy recomendados.</p>"
+                  }
+                },
+                {
+                  "id": "test-name-2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "María Rivas",
+                    "header_size": "h4",
+                    "color": "#F5F7FA",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "600",
+                    "margin": {
+                      "unit": "px",
+                      "top": "12",
+                      "bottom": "4"
+                    }
+                  }
+                },
+                {
+                  "id": "test-role-2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style='color: #20E3B2; font-size: 14px; font-weight: 500;'>Directora de Producto, EcomPlus</p>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "gradient",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": 90,
+        "background_gradient_color": "#7C5CFF",
+        "background_gradient_color_stop": 0,
+        "background_gradient_color_b": "#20E3B2",
+        "background_gradient_color_b_stop": 100,
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "0",
+          "bottom": "80",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "cta-container",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": {
+              "unit": "%",
+              "size": 80
+            },
+            "flex_direction": "column",
+            "align_items": "center",
+            "text_align": "center"
+          },
+          "elements": [
+            {
+              "id": "cta-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "¿Listo para crear la próxima gran app?",
+                "header_size": "h2",
+                "color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 40
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                }
+              }
+            },
+            {
+              "id": "cta-sub",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: rgba(255,255,255,0.8); font-size: 20px; margin: 16px 0 32px;'>Hablemos de tu proyecto y hagamos realidad tu visión.</p>"
+              }
+            },
+            {
+              "id": "cta-btn",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Contáctanos ahora",
+                "button_text_color": "#070A0F",
+                "background_color": "#FFFFFF",
+                "hover_background_color": "rgba(255,255,255,0.85)",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "8",
+                  "bottom": "8",
+                  "left": "8",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "40",
+                  "bottom": "16",
+                  "left": "40",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_weight": "600",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes"
+  },
+  "version": "0.4"
+}

@@ -1,0 +1,56 @@
+{
+    "content": [
+        {
+            "id": "test",
+            "elType": "section",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#070A0F",
+                "padding": {
+                    "unit": "px",
+                    "top": "60",
+                    "right": "0",
+                    "bottom": "60",
+                    "left": "0",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "test-container",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "boxed",
+                        "width": {
+                            "unit": "%",
+                            "size": 80
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "test-heading",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "¡Hola, esto es una prueba!",
+                                "header_size": "h1",
+                                "color": "#FFFFFF",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 40
+                                },
+                                "typography_font_weight": "700",
+                                "align": "center"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "page_settings": {
+        "hide_title": "yes"
+    },
+    "version": "0.4"
+}
